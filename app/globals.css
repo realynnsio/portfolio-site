@@ -10,6 +10,24 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-ocean-100: #00495B;
+  --color-ocean-200: #003C4A;
+  --color-ocean-300: #002C34;
+  --color-dive-100: #007E80;
+  --color-dive-200: #005F62;
+  --color-dive-300: #00373C;
+  --color-aqua-100: #1FAFB0;
+  --color-aqua-200: #147F81;
+  --color-aqua-300: #064045;
+  --color-salt-100: #B2ECF6;
+  --color-salt-200: #74A6AF;
+  --color-salt-300: #244D53;
+  --color-sand-100: #CF804A;
+  --color-sand-200: #B4663B;
+  --color-sand-300: #8B4025;
+  --color-shells-100: #FAF4DA;
+  --color-shells-200: #D6C3AE;
+  --color-shells-300: #A17A6D;
 }
 
 @media (prefers-color-scheme: dark) {
