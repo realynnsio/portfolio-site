@@ -16,12 +16,11 @@ export function SplineScene({ scene, className }: Readonly<SplineSceneProps>) {
         </div>
       }
     >
-      <iframe
-        src={scene}
-        className={className}
-        title="3D Scene"
-      />
       {/* <Spline scene={scene} className={className} /> */}
+      <Spline
+        scene={scene}
+        className={className}
+        />
     </Suspense>
   )
 }
