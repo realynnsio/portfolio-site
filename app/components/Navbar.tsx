@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import SealIcon from './Icons'; // Assuming you have a SealIcon component
+import NavButton from './NavButton';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,21 +29,14 @@ const Navbar = () => {
         <div className={`${isOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-default">
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
             <li>
-              <Link href="#about" className="block py-2 px-3 text-dive-100 rounded-xl md:border-0 hover:text-aqua-100 md:py-2 md:px-4 md:hover:bg-aqua-100 md:hover:text-white">
-                About
-              </Link>
+              <NavButton href="#about">About</NavButton>
             </li>
             <li>
-              <Link href="#projects" className="block py-2 px-3 text-dive-100 rounded-xl md:border-0 hover:text-aqua-100 md:py-2 md:px-4 md:hover:bg-aqua-100 md:hover:text-white">
-                Projects
-              </Link>
+              <NavButton href="#projects">Projects</NavButton>
             </li>
             <li>
-              <Link href="#contact" className="block py-2 px-3 text-dive-100 rounded-xl md:border-0 hover:text-aqua-100 md:py-2 md:px-4 md:hover:bg-aqua-100 md:hover:text-white">
-                Contact
-              </Link>
+              <NavButton href="#contact">Contact</NavButton>
             </li>
-            {/* Add more links as needed */}
           </ul>
         </div>
       </div>
