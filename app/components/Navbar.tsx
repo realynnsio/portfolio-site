@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import Link from 'next/link';
-import SealIcon, { AboutIcon, ContactIcon, ProjectsIcon } from './Icons'; // Assuming you have a SealIcon component
+import SealIcon, { AboutIcon, ContactIcon, ProjectsIcon } from './Icons';
 import NavButton from './NavButton';
 
 const Navbar = () => {

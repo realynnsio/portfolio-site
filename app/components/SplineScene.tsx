@@ -7,6 +7,7 @@ const Spline = dynamic(() => import('@splinetool/react-spline'), {
   ssr: false, // Spline is client-side only
   loading: () => <SplineLoaderOverlay />,
 });
+
 interface SplineSceneProps {
   scene: string
   className?: string
