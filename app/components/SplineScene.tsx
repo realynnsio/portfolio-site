@@ -1,13 +1,7 @@
 'use client';
-import dynamic from 'next/dynamic';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, lazy, Suspense } from 'react';
 import SplineLoaderOverlay from './SplineLoaderOverlay';
-
-const Spline = dynamic(() => import('@splinetool/react-spline'), {
-  ssr: false, // Spline is client-side only
-  loading: () => <SplineLoaderOverlay />,
-});
-
+const Spline = lazy(() => import('@splinetool/react-spline'))
 interface SplineSceneProps {
   scene: string
   className?: string
@@ -39,12 +33,20 @@ export function SplineScene({ scene, className }: Readonly<SplineSceneProps>) {
       {!isContentLoaded && (
         <SplineLoaderOverlay /> // Show the loader until Spline's onLoad fires
       )}
+      <Suspense 
+        fallback={
+          <div className="w-full h-full flex items-center justify-center">
+            <span className="loader"></span>
+          </div>
+        }
+      >
       <Spline
         scene={scene}
         className={className}
         onLoad={handleSplineLoad}
         style={{ opacity: isContentLoaded ? 1 : 0, transition: 'opacity 0.5s ease-in-out' }}
       />
+      </Suspense>
     </div>
   );
 }
