@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import Link from 'next/link';
-import SealIcon from './Icons'; // Assuming you have a SealIcon component
+import SealIcon, { AboutIcon, ContactIcon, ProjectsIcon } from './Icons'; // Assuming you have a SealIcon component
 import NavButton from './NavButton';
 
 const Navbar = () => {
@@ -29,13 +29,13 @@ const Navbar = () => {
         <div className={`${isOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-default">
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 bg-white/30 backdrop-blur-xs rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent md:backdrop-blur-none">
             <li>
-              <NavButton href="#about">About</NavButton>
+              <NavButton icon={<AboutIcon/>} href="#about">About</NavButton>
             </li>
             <li>
-              <NavButton href="#projects">Projects</NavButton>
+              <NavButton icon={<ProjectsIcon/>} href="#projects">Projects</NavButton>
             </li>
             <li>
-              <NavButton href="#contact">Contact</NavButton>
+              <NavButton icon={<ContactIcon/>} href="#contact">Contact</NavButton>
             </li>
           </ul>
         </div>
