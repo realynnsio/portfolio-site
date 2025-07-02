@@ -16,7 +16,7 @@ const HeroSection = () => {
           poster="/videos/placeholder.png"
           preload="auto"
         >
-          <source src="/videos/output_pingpong.webm" type="video/webm" />
+          <source src="/videos/output_pingpong2.webm" type="video/webm" />
           Your browser does not support the video tag.
         </video>
       </div>
