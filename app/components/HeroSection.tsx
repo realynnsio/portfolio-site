@@ -1,6 +1,7 @@
 import React from 'react';
 import NavButton from './NavButton';
 import { CVIcon } from './Icons';
+import Typewriter from './Typewriter';
 
 const HeroSection = () => {
   return (
@@ -28,6 +29,19 @@ const HeroSection = () => {
           <h1 className="text-5xl md:text-7xl font-jersey text-dive-100">
             Hi, I&apos;m Alma!
           </h1>
+          <Typewriter
+            text={[
+              "Frontend Developer",
+              "UI/UX Designer",
+              "Game Developer",
+              "Spline 3D Artist"
+            ]}
+            speed={70}
+            className="text-aqua-100 font-jersey text-5xl md:text-7xl -mt-2 md:-mt-4"
+            waitTime={1500}
+            deleteSpeed={40}
+            cursorChar={"_"}
+          />
           <p className="mt-2 text-dive-200 max-w-lg">
             I&apos;ll put something here later, but for now, this is a placeholder text.
             I&apos;ll put something here later, but for now, this is a placeholder text.
