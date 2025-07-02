@@ -1,18 +1,25 @@
 import React from 'react';
-import { SplineScene } from './SplineScene';
 import NavButton from './NavButton';
 import { CVIcon } from './Icons';
 
 const HeroSection = () => {
   return (
     <div className='bg-gradient-to-r from-cyan-50 from-10% via-white via-70% to-cyan-50 to-100% overflow-hidden w-full h-screen relative'>
-      {/* Spline Scene - Background*/}
+      {/* Changed spline scene background to looping webm */}
       <div className="absolute inset-0 w-full h-full z-5 pt-20 md:pt-0">
-          <SplineScene
-            scene="https://prod.spline.design/1qzbGOKNnwTjrKod/scene.splinecode"
-            className="w-full h-full"
-          />
-        </div>
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full h-full object-cover"
+          poster="/videos/placeholder.png"
+          preload="auto"
+        >
+          <source src="/videos/output_pingpong.webm" type="video/webm" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
 
       {/* Overlay */}
       <div className="container h-full w-full mx-auto relative flex justify-start">
