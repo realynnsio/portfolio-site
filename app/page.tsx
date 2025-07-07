@@ -1,5 +1,7 @@
+import AboutSection from "./components/AboutSection";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
+import TechstackSection from "./components/TechstackSection";
 
 export default function Home() {
   return (
@@ -7,9 +9,12 @@ export default function Home() {
       <div id="top" /> {/* Anchor for the top of the page */}
       <Navbar />
       <HeroSection />
-      <div id="about" className="mx-auto w-full h-screen bg-amber-100">
-        <h2 className="text-2xl font-bold mb-4">Content Section 1</h2>
-        <p>This is the first content section. You can add more details here.</p>
+      <div id="about" className="mx-auto w-full h-9/10">
+        <AboutSection />
+      </div>
+
+      <div className="mx-auto w-full h-fit">
+        <TechstackSection />
       </div>
 
       <div id="projects" className="mx-auto w-full h-screen bg-amber-500">

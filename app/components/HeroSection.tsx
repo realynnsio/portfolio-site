@@ -33,8 +33,8 @@ const HeroSection = () => {
             text={[
               "Frontend Developer",
               "UI/UX Designer",
-              "Game Developer",
-              "Spline 3D Artist"
+              "Spline 3D Artist",
+              "Seal Enthusiast"
             ]}
             speed={70}
             className="text-aqua-100 font-jersey text-5xl md:text-7xl -mt-2 md:-mt-4"
@@ -42,10 +42,10 @@ const HeroSection = () => {
             deleteSpeed={40}
             cursorChar={"_"}
           />
-          <p className="mt-2 text-dive-200 max-w-lg">
-            I&apos;ll put something here later, but for now, this is a placeholder text.
-            I&apos;ll put something here later, but for now, this is a placeholder text.
-            I&apos;ll put something here later, but for now, this is a placeholder text.
+          <p className="mt-2 text-dive-200 max-w-3xs md:max-w-1/2 lg:max-w-lg text-md md:text-lg">
+            A passion in problem-solving, an eye
+            for design, and a love for crafting intuitive
+            & memorable digital experiences
           </p>
 
           <div className='flex flex-col md:flex-row items-start mt-6 space-y-2 md:space-y-0 md:space-x-4 rtl:space-x-reverse'>

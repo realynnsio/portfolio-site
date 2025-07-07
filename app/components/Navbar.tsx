@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-linear-to-b from-white/80 via-white/50 to-white/0 fixed top-0 left-0 w-full z-50">
+    <nav className="bg-linear-to-b from-white via-white/80 to-white/0 fixed top-0 left-0 w-full z-50">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link href="#top" className="flex items-center space-x-3 rtl:space-x-reverse">
           <SealIcon 
