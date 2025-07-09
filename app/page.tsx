@@ -22,10 +22,7 @@ export default function Home() {
         <ProjectSection />
       </div>
 
-      {/* use container class when putting in content */}
-      <div id="contact" className="mx-auto w-full h-screen bg-amber-300">
-        <h2 className="text-2xl font-bold mb-4">Content Section 3</h2>
-        <p>This is the third content section. You can customize it as needed.</p>
+      <div id="contact">
       </div>
     </main>
   );
