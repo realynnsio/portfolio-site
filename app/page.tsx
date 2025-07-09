@@ -1,6 +1,7 @@
 import AboutSection from "./components/AboutSection";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
+import ProjectSection from "./components/ProjectSection";
 import TechstackSection from "./components/TechstackSection";
 
 export default function Home() {
@@ -17,9 +18,8 @@ export default function Home() {
         <TechstackSection />
       </div>
 
-      <div id="projects" className="mx-auto w-full h-screen bg-amber-500">
-        <h2 className="text-2xl font-bold mb-4">Content Section 2</h2>
-        <p>This is the second content section. Feel free to expand it with more information.</p>
+      <div id="projects" className="mx-auto w-full h-9/10">
+        <ProjectSection />
       </div>
 
       {/* use container class when putting in content */}

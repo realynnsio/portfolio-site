@@ -10,7 +10,7 @@ const TechstackSection = () => {
         </h1>
       </div>
 
-      <div className="w-full mx-auto my-4 backdrop-blur-sm mt-8 pb-8">
+      <div className="w-full mx-auto my-4 backdrop-blur-sm mt-16 pb-8">
             <Marquee
                 className="w-full h-full justify-center items-center"
                 speed={50}

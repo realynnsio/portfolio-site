@@ -33,7 +33,9 @@ const HeroSection = () => {
             text={[
               "Frontend Developer",
               "UI/UX Designer",
+              "Game Developer",
               "Spline 3D Artist",
+              "Graphic Designer",
               "Seal Enthusiast"
             ]}
             speed={70}
