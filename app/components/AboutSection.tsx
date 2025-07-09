@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const AboutSection = () => {
   return (
@@ -8,7 +9,7 @@ const AboutSection = () => {
             About <span>Me</span>
         </h1>
 
-        <img src="/photos/alma.jpg" alt="Alma" className="w-60 h-60 md:w-60 md:h-60 rounded-full mx-auto mt-6 mb-6 shadow-xl" />
+        <Image src="/photos/alma.jpg" alt="Alma" className="w-60 h-60 md:w-60 md:h-60 rounded-full mx-auto mt-6 mb-6 shadow-xl" />
 
         <div className="w-full md:w-3/4 mx-auto flex-row outline-2 outline-aqua-100 shadow-md px-4 py-6 mt-8 rounded-2xl backdrop-blur-sm bg-white/50">
             <p className='text-center text-dive-200 text-md md:text-lg'>
