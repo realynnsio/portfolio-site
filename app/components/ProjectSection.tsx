@@ -11,7 +11,7 @@ const ProjectSection = () => {
     <div className='bg-gradient-to-r from-cyan-50 from-10% via-white via-70% to-cyan-50 to-100% overflow-hidden w-full h-full relative'>
       <div className="container h-fit w-full mx-auto flex-col flex-1 relative z-10 p-8 my-auto justify-center items-center">
         <h1 className="text-4xl md:text-5xl font-jersey text-dive-100 mx-auto text-center">
-            My <span>Projects</span>
+            My <span className='text-aqua-100'>Projects</span>
         </h1>
 
         <div className="w-full mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">

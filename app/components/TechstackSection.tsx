@@ -1,7 +1,6 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
 import Image from 'next/image';
-import { FaReact } from 'react-icons/fa';
 
 const TechstackSection = () => {
   return (

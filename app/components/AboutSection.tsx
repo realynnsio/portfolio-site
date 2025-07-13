@@ -6,7 +6,7 @@ const AboutSection = () => {
     <div className='bg-gradient-to-r from-cyan-50 from-10% via-white via-70% to-cyan-50 to-100% overflow-hidden w-full h-full relative'>
       <div className="container h-fit w-fit mx-auto flex-col flex-1 relative z-10 p-8 my-auto justify-center items-center">
         <h1 className="text-4xl md:text-5xl font-jersey text-dive-100 mx-auto text-center">
-            About <span>Me</span>
+            About <span className='text-aqua-100'>Me</span>
         </h1>
 
         <Image src="/photos/alma.jpg" alt="Alma" width={916} height={916} className="w-full h-full md:w-60 md:h-60 rounded-full mx-auto mt-6 mb-6 shadow-xl" />
