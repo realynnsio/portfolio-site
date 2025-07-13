@@ -20,7 +20,7 @@ const ProjectSection = () => {
             >
               <p className="text-dive-300">
                   SafetyPin is a real-time crime mapping app designed to keep you informed and protected.
-                  For the website, I created a landing page design using Figma that showcases the app's features and benefits.
+                  For the website, I created a landing page design using Figma that showcases the app&apos;s features and benefits.
               </p>
 
               <div className="flex flex-row mt-6 justify-between w-full items-end">
@@ -75,7 +75,7 @@ const ProjectSection = () => {
             >
               <p className="text-dive-300">
                 HSSN Piramida is a homeschool located in Bogor that focuses on teaching students with special needs.
-                In this project, I redesigned their landing page using Figma, creating a modern and user-friendly version that highlights the school's mission and values.
+                In this project, I redesigned their landing page using Figma, creating a modern and user-friendly version that highlights the school&apos;s mission and values.
               </p>
 
               <div className="flex flex-row mt-6 justify-between w-full items-end">
@@ -161,7 +161,7 @@ const ProjectSection = () => {
             >
               <p className="text-dive-300">
                 Archimate is an app concept that aims to help users find and connect with architects for their construction needs.
-                In this commissioned project, I created a high-fidelity prototype using Figma that showcases the app's features and user interface.
+                In this commissioned project, I created a high-fidelity prototype using Figma that showcases the app&apos;s features and user interface.
               </p>
 
               <div className="flex flex-row mt-6 justify-between w-full items-end">
