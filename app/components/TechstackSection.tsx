@@ -1,6 +1,7 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
 import Image from 'next/image';
+import { FaReact } from 'react-icons/fa';
 
 const TechstackSection = () => {
   return (
@@ -12,51 +13,37 @@ const TechstackSection = () => {
       </div>
 
       <div className="w-full mx-auto my-4 backdrop-blur-sm mt-16 pb-8">
-            <Marquee
-                className="w-full h-full justify-center items-center"
-                speed={50}
-                gradient={true}
-                play={true}
-                pauseOnHover={true}
-                autoFill={true}
-                gradientColor='#ecfeff'
-                gradientWidth={200}
-                loop={0}
-                >
-            
-            <Image src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" className="h-16" />
-            <div className="w-16" />
-            <Image src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="TypeScript" className="h-16" />
-            <div className="w-16" />
-            <Image src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" className="h-16" />
-            <div className="w-16" />
-            <Image src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript" className="h-16" />
-            <div className="w-16" />
-            <Image src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Html-1.svg" alt="HTML" className="h-16" />
-            <div className="w-16" />
-            <Image src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap" className="h-16" />
-            <div className="w-16" />
-            <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="Tailwind CSS" className="h-16" />
-            <div className="w-16" />
-            <Image src="https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg" alt="Django" className="h-16" />
-            <div className="w-16" />
-            <Image src="https://upload.wikimedia.org/wikipedia/commons/4/44/Google-flutter-logo.svg" alt="Flutter" className="h-16" />
-            <div className="w-16" />
-            <Image src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="GitHub" className="h-16" />
-            <div className="w-16" />
-            <Image src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg" alt="Google Cloud" className="h-16" />
-            <div className="w-16" />
-            <Image src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" alt="Next.js" className="h-16" />
-            <div className="w-16" />
-            <Image src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" className="h-16" />
-            <div className="w-16" />
-            <Image src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" alt="Adobe Photoshop" className="h-16" />
-            <div className="w-16" />
-            <Image src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="PostgreSQL" className="h-16" />
-            <div className="w-16" />
-            <Image src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg" alt="SQLite" className="h-16" />
-            <div className="w-16" />
-        </Marquee>
+          <Marquee
+              className="w-full h-full justify-center items-center overflow-clip"
+              speed={50}
+              gradient={true}
+              play={true}
+              pauseOnHover={true}
+              gradientColor='#ecfeff'
+              gradientWidth={200}
+              loop={0}
+              autoFill={true}
+              >
+              
+              <div className="flex items-center gap-x-16">
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width={20} height={16} className="h-16 w-auto" />
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="TypeScript" width={20} height={16} className="h-16 w-auto" />
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" width={20} height={16} className="h-16 w-auto" />
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript" width={20} height={16} className="h-16 w-auto" />
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Html-1.svg" alt="HTML" width={20} height={16} className="h-16 w-auto" />
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap" width={20} height={16} className="h-16 w-auto" />
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="Tailwind CSS" width={20} height={16} className="h-16 w-auto" />
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg" alt="Django" width={20} height={16} className="h-16 w-auto" />
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/4/44/Google-flutter-logo.svg" alt="Flutter" width={20} height={16} className="h-16 w-auto" />
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="GitHub" width={20} height={16} className="h-16 w-auto" />
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg" alt="Google Cloud" width={20} height={16} className="h-16 w-auto" />
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" alt="Next.js" width={20} height={16} className="h-16 w-auto" />
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" width={20} height={16} className="h-16 w-auto" />
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" alt="Adobe Photoshop" width={20} height={16} className="h-16 w-auto" />
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="PostgreSQL" width={20} height={16} className="h-16 w-auto" />
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg" alt="SQLite" width={20} height={16} className="h-16 w-auto" />
+              </div>
+          </Marquee>
         </div>
     </div>
   )
