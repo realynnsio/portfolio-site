@@ -13,7 +13,7 @@ const AboutSection = () => {
 
         <div className="w-full md:w-3/4 mx-auto flex-row outline-2 outline-aqua-100 shadow-md px-4 py-6 mt-8 rounded-2xl backdrop-blur-sm bg-white/50">
             <p className='text-center text-dive-200 text-md md:text-lg'>
-                A final-year Computer Science student at <span className='text-yellow-600'>Universitas Indonesia</span>,
+                A computer science graduate from <span className='text-yellow-600'>Universitas Indonesia</span>,
                 passionate about combining technology and design.
                 Currently specializing in <span className='text-blue-700'>Frontend Development</span> and <span className='text-pink-700'>UI/UX Design</span>, with experience in React, TypeScript, and Figma.
                 <br /><br />
